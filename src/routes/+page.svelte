@@ -58,7 +58,7 @@
 			<button on:click={() => closeModal()}>
 				<div class="fixed inset-0 bg-black bg-opacity-50 overflow-y-auto h-full w-full">
 					<div
-						class="relative top-20 mx-auto p-5 border w-3/4 md:w-1/2 lg:w-1/3 shadow-lg rounded-md bg-white"
+						class="relative top-20 mx-auto p-5 border w-3/4 md:w-1/2 lg:w-2/3 xl:w-1/2 2xl:w-1/3 shadow-lg rounded-md bg-white"
 					>
 						<img src={selectedImage} alt={selectedAlt} class="w-full h-auto" />
 					</div>
