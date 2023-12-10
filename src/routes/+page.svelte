@@ -1,6 +1,6 @@
 <script lang="ts">
 	import study1 from '$lib/assets/study1.jpeg';
-	import study3 from '$lib/assets/study3.jpeg';
+	import study2 from '$lib/assets/study2.jpeg';
 
 	let alt1 = 'Study Gang #1';
 	let alt3 = 'Study Gang #2';
@@ -82,10 +82,10 @@
 				<img src={study1} alt={alt1} class="w-full h-64 object-cover cursor-pointer" />
 			</button>
 			<button
-				on:click={() => openModal(study3, alt3)}
-				on:keydown={(event) => event.key === 'Enter' && openModal(study3, alt3)}
+				on:click={() => openModal(study2, alt3)}
+				on:keydown={(event) => event.key === 'Enter' && openModal(study2, alt3)}
 			>
-				<img src={study3} alt={alt3} class="w-full h-64 object-cover cursor-pointer" />
+				<img src={study2} alt={alt3} class="w-full h-64 object-cover cursor-pointer" />
 			</button>
 		</div>
 
