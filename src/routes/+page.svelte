@@ -131,7 +131,7 @@
 				</li>
 				<li class="text-base md:text-lg">
 					Coding practice with <a
-						href="https://exercism.io"
+						href="https://github.com/connorads/Exercism?tab=readme-ov-file#exercism"
 						class="text-blue-500 hover:text-blue-600">Exercism.io</a
 					>
 				</li>
