@@ -79,13 +79,13 @@
 				on:click={() => openModal(study1, alt1)}
 				on:keydown={(event) => event.key === 'Enter' && openModal(study1, alt1)}
 			>
-				<img src={study1} alt={alt1} class="w-full h-64 object-cover cursor-pointer" />
+				<img src={study1} alt={alt1} class="w-full h-64 rounded object-cover cursor-pointer" />
 			</button>
 			<button
 				on:click={() => openModal(study2, alt2)}
 				on:keydown={(event) => event.key === 'Enter' && openModal(study2, alt2)}
 			>
-				<img src={study2} alt={alt2} class="w-full h-64 object-cover cursor-pointer" />
+				<img src={study2} alt={alt2} class="w-full h-64 rounded object-cover cursor-pointer" />
 			</button>
 		</div>
 
@@ -93,7 +93,7 @@
 			<button on:click={() => closeModal()}>
 				<div class="fixed inset-0 bg-black bg-opacity-50 overflow-y-auto h-full w-full">
 					<div
-						class="relative top-20 mx-auto p-5 border w-3/4 lg:w-2/3 xl:w-1/2 shadow-lg rounded-md bg-white"
+						class="relative top-20 mx-auto p-5 border w-3/4 lg:w-2/3 xl:w-1/2 shadow-lg rounded bg-white"
 					>
 						<img src={selectedImage} alt={selectedAlt} class="w-full h-auto" />
 					</div>
