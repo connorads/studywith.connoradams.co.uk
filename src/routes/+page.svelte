@@ -167,22 +167,22 @@
 					><use xlink:href="#home"></use></svg
 				>
 			</a>
-			<a href="https://www.linkedin.com" class="hover:text-blue-600">
+			<a href="https://www.linkedin.com/in/connoradams" class="hover:text-blue-600">
 				<svg class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 fill-current"
 					><use xlink:href="#linkedin"></use></svg
 				>
 			</a>
-			<a href="https://github.com" class="hover:text-blue-600">
+			<a href="https://github.com/connorads" class="hover:text-blue-600">
 				<svg class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 fill-current"
 					><use xlink:href="#github"></use></svg
 				>
 			</a>
-			<a href="https://twitter.com" class="hover:text-blue-600">
+			<a href="https://twitter.com/connorads" class="hover:text-blue-600">
 				<svg class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 fill-current"
 					><use xlink:href="#twitter"></use></svg
 				>
 			</a>
-			<a href="https://medium.com" class="hover:text-blue-600">
+			<a href="https://medium.com/@connorads" class="hover:text-blue-600">
 				<svg class="w-6 h-6 md:w-8 md:h-8 lg:w-10 lg:h-10 fill-current"
 					><use xlink:href="#medium"></use></svg
 				>
