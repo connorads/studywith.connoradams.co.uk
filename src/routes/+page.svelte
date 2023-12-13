@@ -3,7 +3,7 @@
 	import study2 from '$lib/assets/study2.jpeg';
 
 	let alt1 = 'Study Gang #1';
-	let alt3 = 'Study Gang #2';
+	let alt2 = 'Study Gang #2';
 
 	let showModal = false;
 	let selectedImage: null | string = null;
@@ -82,10 +82,10 @@
 				<img src={study1} alt={alt1} class="w-full h-64 object-cover cursor-pointer" />
 			</button>
 			<button
-				on:click={() => openModal(study2, alt3)}
-				on:keydown={(event) => event.key === 'Enter' && openModal(study2, alt3)}
+				on:click={() => openModal(study2, alt2)}
+				on:keydown={(event) => event.key === 'Enter' && openModal(study2, alt2)}
 			>
-				<img src={study2} alt={alt3} class="w-full h-64 object-cover cursor-pointer" />
+				<img src={study2} alt={alt2} class="w-full h-64 object-cover cursor-pointer" />
 			</button>
 		</div>
 
