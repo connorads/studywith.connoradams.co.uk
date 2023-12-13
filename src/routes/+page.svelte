@@ -9,23 +9,23 @@
 	let selectedImage: null | string = null;
 	let selectedAlt: null | string = null;
 
-	function openModal(imageSrc: string, imageAlt: string) {
+	const openModal = (imageSrc: string, imageAlt: string) => {
 		selectedImage = imageSrc;
 		selectedAlt = imageAlt;
 		showModal = true;
 		window.addEventListener('keydown', handleKeyDown);
-	}
+	};
 
-	function closeModal() {
+	const closeModal = () => {
 		showModal = false;
 		window.removeEventListener('keydown', handleKeyDown);
-	}
+	};
 
-	function handleKeyDown(event: KeyboardEvent) {
+	const handleKeyDown = (event: KeyboardEvent) => {
 		if (event.key === 'Escape') {
 			closeModal();
 		}
-	}
+	};
 </script>
 
 <svg
